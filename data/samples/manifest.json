@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "collection_id": "papertrail-empty-public-demo",
+  "purpose": "Public demo manifest; no private corpus or PDF files are bundled.",
+  "papers": []
+}

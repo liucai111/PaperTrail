@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "visibility": "public-aggregate-only",
+  "stage16a5": {
+    "summary": "public-data/stage16a5-summary.json",
+    "sha256": "cc3afcb09f5b72447dfaa48ffeb74ff19acd882ee496fdb2fbcf5e5009ef5fad",
+    "judge_protocol": "stage16a5-compact-answer-judge-v1"
+  },
+  "stage16a6": {
+    "summary": "public-data/stage16a6-summary.json",
+    "sha256": "9e18c59fa91bc428371bebb44429b390a0b59d4d44912632497c9ed57054fc27",
+    "judge_protocol": "cited-evidence-judge-v4"
+  },
+  "report": {
+    "path": "docs/public-experiment-results.md",
+    "sha256": "7311b9a69030888db68569e89723baf51b45cea3eebb25b91eb19e34381cec57"
+  }
+}

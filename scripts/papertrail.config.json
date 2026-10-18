@@ -1,0 +1,12 @@
+{
+  "apiPort": 8011,
+  "webPort": 5181,
+  "mode": "dev",
+  "pythonVersion": "3.13",
+  "healthTimeoutSeconds": 30,
+  "noProxyHosts": [
+    "api.deepseek.com",
+    "dashscope.aliyuncs.com"
+  ],
+  "managedPortsToInspect": [8011, 5181, 8013, 5182]
+}

@@ -1,0 +1,33 @@
+{
+  "stage": "Stage 16A6",
+  "scope": "30 independent text test questions; 60 run conditions; 48 successful QA results; 17 valid paired LLM Judge scores",
+  "judge_protocol": "cited-evidence-judge-v4",
+  "sample_size": 17,
+  "comparison": "Basic vs Hybrid + Verifier/Repair combined workflow",
+  "accuracy": {
+    "basic_mean_0_4": 3.411764705882353,
+    "hybrid_mean_0_4": 3.588235294117647,
+    "basic_normalized_pct": 85.29411764705883,
+    "hybrid_normalized_pct": 89.70588235294117,
+    "delta_percentage_points": 4.4117647058823595
+  },
+  "faithfulness": {
+    "basic_mean_0_4": 3.764705882352941,
+    "hybrid_mean_0_4": 4.0,
+    "basic_normalized_pct": 94.11764705882352,
+    "hybrid_normalized_pct": 100.0,
+    "delta_percentage_points": 5.882352941176472
+  },
+  "qa_success": 48,
+  "run_conditions": 60,
+  "repair": {
+    "successful_quality_pairs": 0,
+    "interpretation": "No verified quality benefit."
+  },
+  "limitations": [
+    "LLM Judge scores are not human ratings.",
+    "The combined workflow does not isolate Hybrid, Verifier or Repair effects.",
+    "Formal qrels are unavailable; no formal ranking metrics.",
+    "Six visual-assistance questions are excluded from text metrics."
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0",
+  "git_history_copied": false,
+  "excluded_categories": [
+    ".git history",
+    "PDF corpus",
+    "uploads and local DB",
+    "Gold/questions/qrels",
+    "raw QA/Judge/request runs",
+    "third-party Skill assets"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "size_bytes": 1165,
+      "sha256": "0e51692a90fe5dddd13d52488e70c2070c634e5465d82779df8619c7edaefc65"
+    },
+    {
+      "path": ".gitattributes",
+      "size_bytes": 18,
+      "sha256": "f70d755466b101646b043fe3c62c4f8a39eae827c1a2a303a2d39ccd93f534f8"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 218,
+      "sha256": "15b3e147f152d4e4514e218331db815e6db9107c31e920c70c5585e9689e71f9"
+    },
+    {
+      "path": "apps/api/app/__init__.py",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "apps/api/app/__pycache__/__init__.cpython-313.pyc",
+      "size_bytes": 150,
+      "sha256": "c02edcf830123223541d9df3f7f8ec2a24ed6230825ed436f9687d1c8ddf4a1f"
+    },
+    {
+      "path": "apps/api/app/__pycache__/chunking.cpython-313.pyc",
+      "size_bytes": 5187,
+      "sha256": "5685f3ccb726cfb15289039d052a76db0288549cab8eff22f0bc42155941a9ad"
+    },
+    {
+      "path": "apps/api/app/__pycache__/comparison_reports.cpython-313.pyc",
+      "size_bytes": 25599,
+      "sha256": "5914e266f3b22d8f4802d931eea3a67934f544ae33e5a60674dc44e99bca66cd"
+    },
+    {
+      "path": "apps/api/app/__pycache__/main.cpython-313.pyc",
+      "size_bytes": 260628,
+      "sha256": "e549d03f136cd82116ebc5c9a785c781cb9612987c5dc2fd6e6ae1e9f3b4319c"
+    },
+    {
+      "path": "apps/api/app/__pycache__/migrations.cpython-313.pyc",
+      "size_bytes": 6751,
+      "sha256": "dde3d6b6deb1e9b3838396c993b859732034997db309c5fc558b50321a83636a"
+    },
+    {
+      "path": "apps/api/app/__pycache__/ocr.cpython-313.pyc",
+      "size_bytes": 15062,
+      "sha256": "7badea56e271bed045fc586ca2245de7a6af86e603d249b4494e6d9a26da95a5"
+    },
+    {
+      "path": "apps/api/app/__pycache__/pdf_structure.cpython-313.pyc",
+      "size_bytes": 71769,
+      "sha256": "406e8cbeaeaa28f4124025dffda1c24be090104934de9fa25b222bda4d73f400"
+    },
+    {
+      "path": "apps/api/app/__pycache__/providers.cpython-313.pyc",
+      "size_bytes": 42732,
+      "sha256": "98fc5934fe20ffe3794bdd2d11296a142fcfe074b9cdd503e76e03c12d71905e"
+    },
+    {
+      "path": "apps/api/app/__pycache__/retrieval.cpython-313.pyc",
+      "size_bytes": 5972,
+      "sha256": "ef97e8fa66785278d76ecb9d9833dca06b569f6408b49ade3c6c81feb273b826"
+    },
+    {
+      "path": "apps/api/app/chunking.py",
+      "size_bytes": 3924,
+      "sha256": "651a96106e1d0458f3a4331738df7029a1da4c944185d58835e720ab560326f3"
+    },
+    {
+      "path": "apps/api/app/comparison_reports.py",
+      "size_bytes": 17702,
+      "sha256": "dbda1234cab0db1309f626318925211b0bae2b32378048508ea17fb6b3e4ae5a"
+    },
+    {
+      "path": "apps/api/app/main.py",
+      "size_bytes": 201672,
+      "sha256": "941d63f82734ae6ab44ef1dff3e21e269871ce5aeb7df676fa938c240276e633"
+    },
+    {
+      "path": "apps/api/app/migrations.py",
+      "size_bytes": 4992,
+      "sha256": "453c88b7eb6058d66bf17a4f2c7f06c404fdcbbbd684139a77588edaefd37329"
+    },
+    {
+      "path": "apps/api/app/ocr.py",
+      "size_bytes": 7660,
+      "sha256": "cbade41b1c46d9ed4fbc977fcf5953b7847cf96cce7f308455109c36617a2bf6"
+    },
+    {
+      "path": "apps/api/app/parse_snapshot_store.py",
+      "size_bytes": 20235,
+      "sha256": "c07bc88b884335684f8bffa1524efb4c098f361cfde890889ee66023097cdfff"
+    },
+    {
+      "path": "apps/api/app/pdf_structure.py",
+      "size_bytes": 49135,
+      "sha256": "27c13540c8ceccb141a4823cceb8ad21960ebbfe48c5d5ac6334f5c8ce03c142"
+    },
+    {
+      "path": "apps/api/app/providers.py",
+      "size_bytes": 31940,
+      "sha256": "972ffdd5d56991e2c8652c11105ef3e07b431001a02582fc19d4387c93866c48"
+    },
+    {
+      "path": "apps/api/app/retrieval.py",
+      "size_bytes": 2758,
+      "sha256": "c79d0f9f38a037fdf25eebdaf15c10834504ad5eb2394bec43d25fe9575a1e44"
+    },
+    {
+      "path": "apps/api/requirements-dev.txt",
+      "size_bytes": 48,
+      "sha256": "d8051f37f45da475d5b993671bf8c0e87d980a5bcd5ca9aa3e7e3ce99079e1d3"
+    },
+    {
+      "path": "apps/api/requirements.txt",
+      "size_bytes": 153,
+      "sha256": "c198b190c9e4dd9ef87c7defe0b92689108efdf64b4f9c240764efff13ca9214"
+    },
+    {
+      "path": "apps/web/index.html",
+      "size_bytes": 255,
+      "sha256": "e0fffb2f7c8830dc21996fe838dc902f0a15498aa192b7932dcac4e8fb5a2514"
+    },
+    {
+      "path": "apps/web/package-lock.json",
+      "size_bytes": 57575,
+      "sha256": "07ecee38c9a2efc7f574b547b05bb11db9f71735727a31e415c5e78428dd6d22"
+    },
+    {
+      "path": "apps/web/package.json",
+      "size_bytes": 361,
+      "sha256": "57fba0ab3fac7b3b017ed1b42d140281004dc78aed1a4c6b8773c6aee70da0a4"
+    },
+    {
+      "path": "apps/web/src/answerMarkdown.d.mts",
+      "size_bytes": 63,
+      "sha256": "5d1aabec59602535f700bd250df762ad81b7562eb82904cc49d66e6514f47ad6"
+    },
+    {
+      "path": "apps/web/src/answerMarkdown.mjs",
+      "size_bytes": 3629,
+      "sha256": "bbf210502b33bb24d46038b27ee1a3a76550b1d6321faeb5be251f27df1b3357"
+    },
+    {
+      "path": "apps/web/src/answerPresentation.d.mts",
+      "size_bytes": 777,
+      "sha256": "ed323846aeb23a8027f1e19321f28f11820bd5b658a6a8a84ef2ee3e02b049bb"
+    },
+    {
+      "path": "apps/web/src/answerPresentation.mjs",
+      "size_bytes": 3577,
+      "sha256": "f33791fbb6af5b1df9c354973dd5098a2e46fb97df98a2aa24bcf1556311cff0"
+    },
+    {
+      "path": "apps/web/src/App.vue",
+      "size_bytes": 137483,
+      "sha256": "b41e726fbd571ec82f3f1356663199633591792b0071332af93f724ee361c425"
+    },
+    {
+      "path": "apps/web/src/components/EvaluationResults.vue",
+      "size_bytes": 15397,
+      "sha256": "382b896ef583cf4b3a8aa5048e124f465768c72196e21128e807e9cc692e07b4"
+    },
+    {
+      "path": "apps/web/src/components/ExperimentScoreChart.vue",
+      "size_bytes": 3218,
+      "sha256": "0ee8abaa2a54993e5e6a70e17b69ba44a6714fd7fb3b8bce0f1bfb952894f60c"
+    },
+    {
+      "path": "apps/web/src/main.ts",
+      "size_bytes": 111,
+      "sha256": "0d42fb6bb74a51d647f20a0cd2bcdcc7b89b146f4cdfbf6f1f7b640e7e036119"
+    },
+    {
+      "path": "apps/web/src/pdfReader.d.mts",
+      "size_bytes": 497,
+      "sha256": "f1afc01fd91278c972dc2baf95b77e555f9cb7efa7256d3e367c4f161e1830b6"
+    },
+    {
+      "path": "apps/web/src/pdfReader.mjs",
+      "size_bytes": 1165,
+      "sha256": "c19551a4ab990f80c662167f3779de1d8817792965d12c74766b97f4ef61490d"
+    },
+    {
+      "path": "apps/web/src/qaSubmission.d.mts",
+      "size_bytes": 868,
+      "sha256": "fcc035646ceea0de7406b4b9edf234897bd714c473bdecae6ac653c740526b55"
+    },
+    {
+      "path": "apps/web/src/qaSubmission.mjs",
+      "size_bytes": 5931,
+      "sha256": "f5759bb233845e607e0bbd2d0954ef80a86812e995ce495b03d774b1957111d8"
+    },
+    {
+      "path": "apps/web/src/style.css",
+      "size_bytes": 43149,
+      "sha256": "c57e3c1a92bc391494169709377aa805302cda9ca4a3b1173a1dccda07aac9d1"
+    },
+    {
+      "path": "apps/web/src/uploadSubmission.d.mts",
+      "size_bytes": 1590,
+      "sha256": "a87db36c95f74ce86cbc68f44f91e9e8f1cd233dab91225a145da9f5210c43e7"
+    },
+    {
+      "path": "apps/web/src/uploadSubmission.mjs",
+      "size_bytes": 5928,
+      "sha256": "f885b9719b7ffa09e2eedbf98674593e974df6f8a370bf0ee6fbf8fe585ddea6"
+    },
+    {
+      "path": "apps/web/src/viewState.d.mts",
+      "size_bytes": 1333,
+      "sha256": "04b443e4e87c4249f2773ec800e2c84292fe7b333b8c4de27cc3e2394ced4a9a"
+    },
+    {
+      "path": "apps/web/src/viewState.mjs",
+      "size_bytes": 4391,
+      "sha256": "a6e29463d5a89ab0199a43dcddbfe41a7343e03b64a81e258fc2ed214be33556"
+    },
+    {
+      "path": "apps/web/src/workspacePreferences.d.mts",
+      "size_bytes": 395,
+      "sha256": "1b2a8e8a695847db6082f275245f4a20b59a93b4d345577f9b8b5994705c84a7"
+    },
+    {
+      "path": "apps/web/src/workspacePreferences.mjs",
+      "size_bytes": 880,
+      "sha256": "0d582902c55ad7e11559627a1fd94ba29396fb8c5cec3b5ae4cd7dbf0272e800"
+    },
+    {
+      "path": "apps/web/tests/answerMarkdown.test.mjs",
+      "size_bytes": 1092,
+      "sha256": "0efbe2e68e6b392a14e17ba538a9390aa9988330014300d264a9c884074c4519"
+    },
+    {
+      "path": "apps/web/tests/answerPresentation.test.mjs",
+      "size_bytes": 5157,
+      "sha256": "9654bad8c89d5ff07227c9b0895171fa8ace6c7b0533e56131affe1d221b6f64"
+    },
+    {
+      "path": "apps/web/tests/pdfReader.test.mjs",
+      "size_bytes": 1950,
+      "sha256": "44968973dc8db8fd20126f278ebdfe40549892e34579b53732f8983d4baa0f17"
+    },
+    {
+      "path": "apps/web/tests/workspacePreferences.test.mjs",
+      "size_bytes": 981,
+      "sha256": "989a3ab14d48144c163526ea1992f081f25feccab93c28f92f4a96793d4d0560"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "size_bytes": 300,
+      "sha256": "5cf59374021008d158a9429823442fe37d10d0e3b6672a3e537f84df0c66724e"
+    },
+    {
+      "path": "apps/web/vite.config.ts",
+      "size_bytes": 632,
+      "sha256": "da545e2691b8b470432b6a66e92faf91d4a871ae1d79a44ab3404b4818840f23"
+    },
+    {
+      "path": "data/samples/manifest.json",
+      "size_bytes": 179,
+      "sha256": "70a7fe2b9eedadc716353464bbcd639368864b4aa9f8fec384a30dc458a82395"
+    },
+    {
+      "path": "docs/architecture.md",
+      "size_bytes": 839,
+      "sha256": "244263f20cc55a256fc068b250a1828147cdd168c3704fd1f2abbafd1d914a4f"
+    },
+    {
+      "path": "docs/deployment.md",
+      "size_bytes": 994,
+      "sha256": "f9acd64e523ca95a1bbd3fa10a87af66ae2b3f6c5b19eacf9b8483249e347f35"
+    },
+    {
+      "path": "docs/public-experiment-results.md",
+      "size_bytes": 1507,
+      "sha256": "7311b9a69030888db68569e89723baf51b45cea3eebb25b91eb19e34381cec57"
+    },
+    {
+      "path": "public-data/experiment-manifest.json",
+      "size_bytes": 640,
+      "sha256": "96215159ed460834dfffad4f916af815aed8c7cb2071b29643c2492c520c6c99"
+    },
+    {
+      "path": "public-data/latest.json",
+      "size_bytes": 146,
+      "sha256": "d55b096a93c7826289a374bbc5f8180564b4f81c8b986e6e85703a8706094578"
+    },
+    {
+      "path": "public-data/stage16a5-summary.json",
+      "size_bytes": 1144,
+      "sha256": "cc3afcb09f5b72447dfaa48ffeb74ff19acd882ee496fdb2fbcf5e5009ef5fad"
+    },
+    {
+      "path": "public-data/stage16a6-summary.json",
+      "size_bytes": 1208,
+      "sha256": "9e18c59fa91bc428371bebb44429b390a0b59d4d44912632497c9ed57054fc27"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2407,
+      "sha256": "bb66b85df4fe0e7f53a7548438d7c201ea33ba5f8f590992de484d84e71caccf"
+    },
+    {
+      "path": "scripts/papertrail.cmd",
+      "size_bytes": 129,
+      "sha256": "9ce007efed2bfb360b4c3fc2f2ff4694d87a56e7b4334fa789da7d6cc136cb0b"
+    },
+    {
+      "path": "scripts/papertrail.config.json",
+      "size_bytes": 246,
+      "sha256": "b29a4f583de1532d89842a3ef1b728b6869a659bff0dacfbae0ddc507ffbf319"
+    },
+    {
+      "path": "scripts/papertrail.ps1",
+      "size_bytes": 32858,
+      "sha256": "beb3dd788bf80d9eabae73f1d2b7e553e9ece5155add4b39763d1e8add60310f"
+    },
+    {
+      "path": "tests/__pycache__/test_operation_tasks.cpython-313-pytest-8.3.4.pyc",
+      "size_bytes": 59071,
+      "sha256": "93afbd9c9419a86593ff00a3cac3efabeb88ebbb134d3d167a7952750d0b9cf3"
+    },
+    {
+      "path": "tests/__pycache__/test_operation_tasks.cpython-313-pytest-9.1.1.pyc",
+      "size_bytes": 59071,
+      "sha256": "93afbd9c9419a86593ff00a3cac3efabeb88ebbb134d3d167a7952750d0b9cf3"
+    },
+    {
+      "path": "tests/__pycache__/test_pdf_structure.cpython-313-pytest-8.3.4.pyc",
+      "size_bytes": 58487,
+      "sha256": "5c2f2a6b08b7ecf8a59a5589461581432ab7505f77740f3a7f1a619e836709bf"
+    },
+    {
+      "path": "tests/__pycache__/test_pdf_structure.cpython-313-pytest-9.1.1.pyc",
+      "size_bytes": 58487,
+      "sha256": "5c2f2a6b08b7ecf8a59a5589461581432ab7505f77740f3a7f1a619e836709bf"
+    },
+    {
+      "path": "tests/__pycache__/test_provider_configuration.cpython-313-pytest-8.3.4.pyc",
+      "size_bytes": 103089,
+      "sha256": "eee14a6797ce4d139ad1ed88438977da84f7bd6594a2c60f6e2743a2a3006862"
+    },
+    {
+      "path": "tests/__pycache__/test_provider_configuration.cpython-313-pytest-9.1.1.pyc",
+      "size_bytes": 103089,
+      "sha256": "eee14a6797ce4d139ad1ed88438977da84f7bd6594a2c60f6e2743a2a3006862"
+    },
+    {
+      "path": "tests/__pycache__/test_user_upload.cpython-313-pytest-8.3.4.pyc",
+      "size_bytes": 77496,
+      "sha256": "c0598f531b300f0a3b9eb1791b77839a7edef24e4af5973db2856083dec28634"
+    },
+    {
+      "path": "tests/__pycache__/test_user_upload.cpython-313-pytest-9.1.1.pyc",
+      "size_bytes": 77496,
+      "sha256": "c0598f531b300f0a3b9eb1791b77839a7edef24e4af5973db2856083dec28634"
+    },
+    {
+      "path": "tests/qa_submission.test.mjs",
+      "size_bytes": 8346,
+      "sha256": "c2db6c6a0e82b93143f9cb86d125be0603b2782091c602ed44e01713e49f225e"
+    },
+    {
+      "path": "tests/test_provider_configuration.py",
+      "size_bytes": 26124,
+      "sha256": "e528262d9a4c137e00ac8a2dbfb47997662b943cff73eb0fddc7b07d6829c561"
+    },
+    {
+      "path": "tests/test_user_upload.py",
+      "size_bytes": 16243,
+      "sha256": "2aa74ce49ef2e5a61b22df1d0ce45f869fdd460a11e50a7da5c21a761ee2da9e"
+    },
+    {
+      "path": "tests/upload_submission.test.mjs",
+      "size_bytes": 6011,
+      "sha256": "9f66a7b1491b11cc0c7c7629ac6c059d8dc84d950415bb8b8fc562c5fc0e5147"
+    }
+  ]
+}

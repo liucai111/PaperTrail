@@ -1,0 +1,34 @@
+{
+  "stage": "Stage 16A5",
+  "scope": "48 additional development questions; 47 completed Basic/Hybrid QA pairs; 45 valid paired LLM Judge scores",
+  "judge_protocol": "stage16a5-compact-answer-judge-v1",
+  "sample_size": 45,
+  "accuracy": {
+    "basic_mean_0_4": 3.422222222222222,
+    "hybrid_mean_0_4": 3.866666666666667,
+    "basic_normalized_pct": 85.55555555555556,
+    "hybrid_normalized_pct": 96.66666666666669,
+    "delta_percentage_points": 11.111111111111127
+  },
+  "faithfulness": {
+    "basic_mean_0_4": 3.7555555555555555,
+    "hybrid_mean_0_4": 3.933333333333333,
+    "basic_normalized_pct": 93.88888888888889,
+    "hybrid_normalized_pct": 98.33333333333333,
+    "delta_percentage_points": 4.444444444444439
+  },
+  "qa_pairs": {
+    "completed": 47,
+    "target": 48
+  },
+  "repair": {
+    "paired_samples": 2,
+    "observed_score_changes": 0,
+    "interpretation": "No quality improvement observed in two scored before/after pairs."
+  },
+  "limitations": [
+    "LLM Judge scores are not human ratings.",
+    "Judge protocol differs from Stage 16A6.",
+    "Formal qrels coverage is insufficient for formal ranking metrics."
+  ]
+}
