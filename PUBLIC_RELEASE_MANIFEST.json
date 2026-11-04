@@ -26,6 +26,16 @@
       "sha256": "15b3e147f152d4e4514e218331db815e6db9107c31e920c70c5585e9689e71f9"
     },
     {
+      "path": "LICENSE",
+      "size_bytes": 1066,
+      "sha256": "d3d3e0e591218ed9f6ea3974d5c0914df621c1dc884158dbf150649a74674b77"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 15706,
+      "sha256": "7587a2671a6aedec09f423d40b1a03f46ceb9ca4be90081ecffb7db774949195"
+    },
+    {
       "path": "apps/api/app/__init__.py",
       "size_bytes": 1,
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
@@ -146,6 +156,11 @@
       "sha256": "57fba0ab3fac7b3b017ed1b42d140281004dc78aed1a4c6b8773c6aee70da0a4"
     },
     {
+      "path": "apps/web/src/App.vue",
+      "size_bytes": 137483,
+      "sha256": "b41e726fbd571ec82f3f1356663199633591792b0071332af93f724ee361c425"
+    },
+    {
       "path": "apps/web/src/answerMarkdown.d.mts",
       "size_bytes": 63,
       "sha256": "5d1aabec59602535f700bd250df762ad81b7562eb82904cc49d66e6514f47ad6"
@@ -164,11 +179,6 @@
       "path": "apps/web/src/answerPresentation.mjs",
       "size_bytes": 3577,
       "sha256": "f33791fbb6af5b1df9c354973dd5098a2e46fb97df98a2aa24bcf1556311cff0"
-    },
-    {
-      "path": "apps/web/src/App.vue",
-      "size_bytes": 137483,
-      "sha256": "b41e726fbd571ec82f3f1356663199633591792b0071332af93f724ee361c425"
     },
     {
       "path": "apps/web/src/components/EvaluationResults.vue",
@@ -309,11 +319,6 @@
       "path": "public-data/stage16a6-summary.json",
       "size_bytes": 1208,
       "sha256": "9e18c59fa91bc428371bebb44429b390a0b59d4d44912632497c9ed57054fc27"
-    },
-    {
-      "path": "README.md",
-      "size_bytes": 2407,
-      "sha256": "bb66b85df4fe0e7f53a7548438d7c201ea33ba5f8f590992de484d84e71caccf"
     },
     {
       "path": "scripts/papertrail.cmd",
